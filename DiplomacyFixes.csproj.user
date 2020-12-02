@@ -16,4 +16,7 @@
   <PropertyGroup>
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <StartArguments>/singleplayer _MODULES_%2aBannerlord.Harmony%2aBetterExceptionWindow%2aBannerlord.ButterLib%2aBannerlord.UIExtenderEx%2aBannerlord.MBOptionScreen%2aBannerlord.MBOptionScreen.MCMv3%2aBannerlord.MBOptionScreen.ModLib%2aNative%2aSandBoxCore%2aCustomBattle%2aSandbox%2aStoryMode%2aAragas.AltSaveMissingModuleFix%2aCharacterReload%2aCombatBandage%2aCraftedItemCopyright%2aCtrl_Auto_Smelts%2aCurryFavorByKillingBandits%2aCustomSpawns%2aDefectionOverhaul%2aDiplomacyFixes%2aEconomyTweak_h%2aExitSettlement%2aExtendedFamily%2aExtendedProduction%2aHeroesMustDie%2aHousesCalradia%2aImprovedGarrisons%2aInterestingClans%2aInterestingCompanions%2aJTPrisonerRecruitment%2aKaosesPartySizes%2aKillBanditsRaiseRelations%2aLordRetinueUptier%2aMCTRDecayedisRevived%2aManageRemoteCompanions%2aNPCRevamp%2aNobleNobles%2aPacemaker%2aPartyAIOverhaulCommands%2aPartyScreenEnhancements%2aPowerToTheNotables%2aRealisticBattleAiModule%2aSettlementIcons%2aSoundTheAlarm%2aSueLordFromFamily%2aTMCompanions%2aTrueCompanionTraitsSkills%2aTrueNobleOpinion%2aTrueRelations%2aUsefullCompanions%2acsx%2azCulturedStart%2azenDzeeMods_Heritage%2azzBannerlordTweaks%2a_MODULES_</StartArguments>
+  </PropertyGroup>
 </Project>
